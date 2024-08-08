@@ -1,60 +1,28 @@
-# New Project Template
+# Model Card
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/aiotads/jack_v7)
+## Introduction
+jackv7 is a model specifically designed for PPE(Personal Protective Equipment), primarily capable of detecting whether workers are wearing safety equipment, such as safety helmets and safety vests etc.
 
-This repository contains a template that can be used to seed a repository for a
-new Innodisk open source project.
+Here is our hugging face space: [https://huggingface.co/spaces/aiotads/jackv7](https://huggingface.co/spaces/aiotads/jack_v7)
 
-Reference [go/releasing](http://go/releasing) (available externally at
-https://opensource.google/docs/releasing/) for more information about
-releasing a new Google open source project.
+Below are the results of using public datasets and actually running in space.
 
-This template uses the Apache license, as is Google's default.  See the
-documentation for instructions on using alternate license.
+<br />
+<div align="center"><img width="80%" height="80%" src="docs/fig/ppe-1.png"></div>
+<br />
 
-## How to use this template
+<br />
+<div align="center"><img width="80%" height="80%" src="docs/fig/ppe-2.png"></div>
+<br />
 
-1. Clone it from GitHub.
-    * There is no reason to fork it.
-1. Create a new local repository and copy the files from this repo into it.
-1. Modify README.md and docs/contributing.md to represent your project, not the
-   template project.
-1. Develop your new project!
 
-``` shell
-git clone https://github.com/google/new-project
-mkdir my-new-thing
-cd my-new-thing
-git init
-cp -r ../new-project/* ../new-project/.github .
-git add *
-git commit -a -m 'Boilerplate for new Innodisk open source project'
-```
+# Reference
+ - yolov7: https://github.com/WongKinYiu/yolov7
+ - Roboflow: https://universe.roboflow.com/search?q=ppe
 
-## Source Code Headers
+# Contributor
 
-Every file containing source code must include copyright and license
-information. This includes any JS/CSS files that you might be serving out to
-browsers. (This is to help well-intentioned people avoid accidental copying that
-doesn't comply with the license.)
-
-Apache header:
-
-    Copyright 2022 Innodisk Crop.
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        https://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
-MIT header (vs marketplace: https://marketplace.visualstudio.com/items?itemName=ymotongpoo.licenser):
-
-    # Copyright (c) 2022 Innodisk Crop.
-    # 
-    # This software is released under the MIT License.
-    # https://opensource.org/licenses/MIT
+Author | E-mail | Corp.|
+|:---:|:---:|:---:|
+|Hueiru|hueiru_chen@inndisk.com|innodisk Inc|
+|Jack|juihung_weng@innodisk.com|innodisk Inc|
